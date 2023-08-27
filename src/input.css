@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+      background-color: theme('colors.white');
+      font-size: 30px;
+    }
+  }
